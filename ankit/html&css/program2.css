@@ -1,0 +1,12 @@
+body{
+    padding: 50px;
+}
+
+
+.outer-div{width: 5 0px;padding: 50px;
+    background-color: black;
+}
+.inner-div{max-width: 50px; height: 40px;
+    background-color: blue; margin: 0 auto;
+
+}

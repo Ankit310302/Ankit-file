@@ -1,0 +1,27 @@
+*{margin: 0px; box-sizing: border-box;}
+body{font-size: 14px; font-family: arial;}
+
+:root{--mcolor:#060dcb;}
+
+
+.container{max-width:900px;  margin:0px auto;}
+.d-flex{display: flex;}
+.space-between{justify-content: space-between; align-items: center;}
+a{text-decoration: none!important;}
+
+/*------------------------*/
+
+.search-field{background-color:#eee; padding:3px  10px; border-radius: 50px;}
+.inner-area{display: flex;}
+input {border:none; background-color: none; padding:4px 8px; outline: 0; background-color: #eee; font-size:12px;}
+.inner-area input{width:400px;}
+
+
+
+/*--------------logo-area-end--------------*/
+.navbar{background-color:var(--mcolor); color:white;}
+.menu ul{list-style: none; display: flex; padding:0px;}
+.menu li a{display: block; padding:15px 20px; color:white;}
+.menu li:nth-child(1) a{padding-left: 0px;}
+
+
